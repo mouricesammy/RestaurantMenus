@@ -1,0 +1,355 @@
+
+
+<script>
+
+  function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("hide");
+  }
+
+  // Close the dropdown if the user clicks outside of it
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropbtn')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('show')) {
+          openDropdown.classList.remove('show');
+        }
+      }
+    }
+  }
+</script>
+<!-- Toolbar -->
+<div class="toolbar" role="banner">
+  <span>RESTAURANT MENU</span>
+    <div class="spacer"></div>
+</div>
+
+<div class="content" role="main" style="background-image:url(assets/food.jpg)">
+<!-- Highlight Card -->
+
+<div class="collapsible-menu">
+            <input type="checkbox" id="menu1">
+            <label for="menu">Salad</label>
+            <div class="menu-content">
+                <ul>
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu4">
+                    <label for="menu">Santa Fe</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+                            <p>You might also want: </p>
+                    <input type="checkbox" id="menu5">
+                    <label for="menu">Dressing</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Blue Cheese</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Ranch</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+                            <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Bread</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Flat</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Sour Dough</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Greek</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+                            <p>You might also want: </p>
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Dressing</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Blue Cheese</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Ranch</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+                            <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Bread</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Flat</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Sour Dough</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Asian</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+                            <p>You might also want: </p>
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Dressing</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Blue Cheese</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Ranch</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+                            <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Bread</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Flat</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Sour Dough</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                </ul>
+            </div>
+        </div>
+
+<div class="collapsible-menu">
+            <input type="checkbox" id="menu2">
+            <label for="menu">Entree</label>
+            <div class="menu-content">
+                <ul>
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Steak</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Blue Cheese</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Ranch</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+                            <li><div class="collapsible-menu">
+
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Flat</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Sour Dough</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Salmon</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Blue Cheese</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Ranch</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Rice</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+
+                    <div class="menu-content">
+                        <ul>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+                            <li><div class="collapsible-menu">
+
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Flat</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Sour Dough</li>
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                </ul>
+            </div>
+        </div>
+
+<div class="container">
+
+<div class="collapsible-menu">
+            <input type="checkbox" id="menu3">
+            <label for="menu">Soup</label>
+            <div class="menu-content">
+                <ul>
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Minestrone</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+                            <p>You might also want: </p>
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Bread</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Breadsticks</li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+                            <li><div class="collapsible-menu">
+
+
+                    </div></li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Hot and Sour</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+                    <p>You might also want: </p>
+
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Bread</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Breadsticks</li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+                            <li><div class="collapsible-menu">
+
+
+                    </div></li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                    <li><div class="collapsible-menu">
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Miso</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><div class="collapsible-menu">
+                    <p>You might also want: </p>
+
+                    <input type="checkbox" id="menu">
+                    <label for="menu">Bread</label>
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Breadsticks</li>
+
+
+                        </ul>
+                    </div>
+                    </div>
+                            </li>
+                            <li>
+                              <div class="collapsible-menu">
+
+                    <div class="menu-content">
+                        <ul>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Italian</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Flat</li>
+                            <li><a href="#"></a><input type="checkbox" id="menu">Sour Dough</li>
+
+                        </ul>
+                    </div>
+                    </div>
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    </div></li>
+
+                </ul>
+            </div>
+        </div>
+
+<div class="row">
+   <input type="submit" value="Submit choice">
+  </div>
+
+</div>
+
+<router-outlet></router-outlet>
